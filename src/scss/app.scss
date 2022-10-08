@@ -1,0 +1,170 @@
+@import 'mixins';
+
+
+
+:root {
+	--height-header: 4rem;
+	--height-footer: 3rem;
+
+	--padding-page: 2rem;
+	--padding-top-page: calc(var(--height-header) + var(--padding-page));
+	--padding-bottom-page: calc(var(--height-footer) + var(--padding-page));
+
+	--color-black: #121212;
+	--color-green: #1DB954;
+
+	--clip-path-angle-distance: 6vh;
+	--background1: rgba(227, 225, 236, 1);
+	/*#e2e0ea;*/
+	--background2: rgba(244, 244, 247, 1);
+	/*#d4d1e0;*/
+	--lightPink: #fee8de;
+	--purple1: #584c7d;
+	--purple2: #4f58ca;
+	--salmonPink: #e1949f;
+	--darkGrey: #ada7ad;
+	--grey: #d2cbd2;
+	--darkPurple: #383d61;
+	--darkBlush: #9a6068;
+	@include mobile {
+		--padding-bottom-page: calc(var(--height-footer) + 1rem);
+		--padding-top-page: calc(var(--height-header) + 1rem);
+		--height-header: 2.7rem;
+
+		--clip-path-angle-distance: 6vw;
+	}
+}
+
+html {
+	height: 100%;
+
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+
+	// typography
+	font-family: 'Circular Spotify Text', sans-serif;
+	line-height: 1.2;    // should always be unitless
+	letter-spacing: 0em; // should always be in ems
+	color: white;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.app-root {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background-color: black;
+}
+
+.router-component {
+	position: relative;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center; // depending on your designs, `flex-start` may make more sense
+
+	// default padding to clear header and footer
+	// override within your view as needed
+	// i.e. use `padding: 0` to make your view fullscreen
+	padding: var(--padding-page);
+	padding-top: var(--padding-top-page);
+	padding-bottom: var(--padding-bottom-page);
+
+	// if using the <page-transition> component for cross-fading,
+	// all views need an opaque background to complete the effect
+	background-color: var(--color-black);
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+h1 {
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+iframe, video, embed, img, canvas {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: inherit;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+}
+
+.button {
+	letter-spacing: 0.28px;
+	font-family: 'SuisseSign';
+	font-weight: 700;
+	color: #f60015;
+	background-color: #ffffff;
+	text-transform: uppercase;
+	min-width: 12em;
+	padding: 1em 2.5em;
+
+	// display flex seems to produce better vertical centering of text and svgs
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+	transition: 0.2s ease;
+	transition-property: opacity, color, background-color;
+
+	// hover media query prevents weird toggle hover behaviour on mobiles
+	@media (hover: hover) {
+		&:hover {
+			background-color: red;
+			color: white;
+		}
+	}
+	@include mobile {
+		min-width: 9em;
+		padding: 1em;
+		font-size: 0.9rem;
+	}
+
+	&.is-circle {
+		min-width: unset;
+		padding: 0.75em;
+		border-radius: 9999px;
+
+		svg {
+			width: 1em;
+			height: 1em;
+			object-fit: contain;
+		}
+	}
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.3s linear;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+	opacity: 0;
+}

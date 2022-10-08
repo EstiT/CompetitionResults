@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "dev": "vite",
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.9.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "chalk": "^4.0.0",
+    "eslint": "^8.16.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-vue": "^9.0.1",
+    "execa": "^4.0.0",
+    "node-emoji": "^1.10.0",
+    "sass": "^1.52.1",
+    "vite": "^2.9.9",
+    "vue-cli-plugin-gh-pages-auto-deploy": "~0.5.0"
+  }
+}
