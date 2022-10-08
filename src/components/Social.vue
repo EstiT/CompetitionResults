@@ -39,8 +39,8 @@ onMounted(() => {
 
 svg {
     fill: black;
-    height: 1rem;
-    width: 1rem;
+    height: 1.2rem;
+    width: 1.2rem;
     object-fit: contain;
     margin-right: 1rem;
 }

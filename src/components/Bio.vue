@@ -7,7 +7,7 @@
             <h4>Height <span>5 ft 7in</span></h4>
             <h4>Wingspan <span>5 ft 9in</span></h4>
         </div>
-        <!-- <div class="img"><img src="/images/climbing.jpeg" /></div> -->
+        <div class="img"><img src="/images/climbing.jpeg" /></div>
     </div>
 </template>
 

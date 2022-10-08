@@ -6,11 +6,4 @@ export default defineConfig({
   plugins: [vue()],
   publicPath: '/',
   base: './',
-  build: {
-    rollupOptions: {
-      external: [
-        /\/images\/*/,
-      ]
-    }
-  }
 })
