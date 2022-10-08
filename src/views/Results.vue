@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="img">
-        <img src="/images/climbingBeyond.jpg" class="pic" />
+        <img src="/images/climbingBeyond.jpeg" class="pic" />
       </div>
     </div>
   </div>
