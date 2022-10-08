@@ -12,7 +12,9 @@ import Bio from './components/Bio.vue';
 
 </script>
 
-<style>
+<style lang="scss">
+@import './scss/mixins.scss';
+
 body {
 	margin: 0;
 }
@@ -23,5 +25,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	padding: 2rem;
+
+	@include mobile {
+		padding: 2rem 1.5rem;
+	}
 }
 </style>

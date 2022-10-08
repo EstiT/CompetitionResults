@@ -55,6 +55,10 @@ import { mobile, desktop } from '../utils/Breakpoints';
   &:hover {
     text-decoration: underline;
   }
+
+  @include mobile {
+    margin: 0.8rem 0.5rem;
+  }
 }
 
 .container {
@@ -87,6 +91,11 @@ h2 {
     right: 5px;
     color: black;
     font-size: 0.7rem;
+  }
+
+  @include mobile {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 </style>

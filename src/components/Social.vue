@@ -35,6 +35,10 @@ onMounted(() => {
 #social {
     margin-top: 2rem;
     display: flex;
+
+    @include mobile {
+        justify-content: center;
+    }
 }
 
 svg {
