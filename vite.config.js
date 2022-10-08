@@ -6,11 +6,11 @@ export default defineConfig({
   plugins: [vue()],
   publicPath: '/',
   base: './',
-  css: {
-  preprocessorOptions: {
-    scss: {
-      // additionalData: `@import "@/scss/app.scss";`
+  build: {
+    rollupOptions: {
+      external: [
+        /\/images\/*/,
+      ]
     }
   }
-},
 })
