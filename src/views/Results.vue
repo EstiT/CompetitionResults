@@ -5,9 +5,10 @@
       <div>
         <div>
           <h3>Australia 🇦🇺</h3>
+          <a class="link" target="_blank" href="https://docs.google.com/spreadsheets/d/1ETzKLzNZ2AJxjtfgd2Gp0g7P11cBBgwStdsDNUrXbqY/edit?usp=sharing&fbclid=IwAR2K0EDGeanTu8f3Iv9ob6dutGLqVesFRkrh48NTbUg6QSIntdlBPHWM00A">5th VIC Boulder State Titles @ Boulder Lab, Ferntree Gully - 15/10/2022 </a>
           <a class="link" target="_blank" href="https://sportclimbingsa.com/wp-content/uploads/2022/09/22-SA-Boulder-ONLINE.pdf">4th SA Boulder State Titles @ Beyond Bouldering, Adelaide - 17/09/2022 </a>
           <a class="link" target="_blank" href="https://www.facebook.com/photo/?fbid=5296849010427638&set=pcb.5296849153760957">3rd TAS Boulder State Titles @ Beta Park, Launceston - 20/08/2022 </a>
-          <a class="link" target="_blank" href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202021/StateLeadResultsSCSA2022.pdf">1st SA Lead State Titles @ VRC, Adelaide - 14/03/2022 </a>
+          <a class="link" target="_blank" href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202021/StateLeadResultsSCSA2022.pdf">1st SA Lead State Titles @ VRC, Adelaide - 14/05/2022 </a>
           <a class="link" target="_blank" href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202021/2022%20Open%20Boulder%20selection%20results.pdf">9th Boulder National Selection Event @ Nomad, Sydney - 26/02/2022</a>
           <a class="link" target="_blank" href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202021/21%20-%20NSW_ACT%20-%20Boulder%20-%20Results.pdf">5th NSW/ACT Boulder State Titles @ Skywood, Sydney - 22/01/2022</a>
           <a class="link hide" target="_blank" href="https://sportclimbingsa.com/wp-content/uploads/2022/01/2021-SA-State-Boulder-Titles-Results.pdf">7th SA Boulder State Titles @ Beyond Bouldering, Adelaide - 23/10/2021</a>
