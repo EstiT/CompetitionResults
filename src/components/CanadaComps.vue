@@ -32,6 +32,7 @@
         <a class="link nolink" target="_blank" href="">?? Open Boulder National Series Event @ Joe Rock Heads, Toronto - ??/03/2015</a>  
         <a class="link" :class="{hide: showAll}" target="_blank" href="https://squamishclimbingmagazine.ca/final-results-2015-youth-bouldering-nationals/">2nd Youth Boulder Nationals @ Climbers Rock, Burlington - 13/02/2015</a>
         <a class="link" target="_blank" href="https://my.climbontario.ca/dates.php?id=29">1st OCF Bouldering Provincials @ Boulderz, Etobicoke - 18/01/2015</a>  
+        <a class="link " target="_blank" href="https://gripped.com/news/tour-de-bloc-climbers-rock-brock-briggs-triumphs-bloc-buster/">3rd Tour De Bloc @ Climber's Rock, Burlington - 10/01/2015</a>  
         <h4>2014</h4>
         <a class="link" target="_blank" href="https://my.climbontario.ca/dates.php?id=28">2nd OCF Bouldering Local @ True North Climbing, Toronto - 13/12/2014</a>  
         <a class="link" target="_blank" href="https://my.climbontario.ca/dates.php?id=27">2nd OCF Bouldering Local @ Climber's Rock, Burlington - 22/11/2014</a>  
