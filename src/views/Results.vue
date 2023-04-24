@@ -5,7 +5,9 @@
       <div>
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
+          <h4 :class="{hide: !showAll}">2023</h4>
           <p class="link nolink">5th Island Crown @ Beta Park, Launceston - 22/04/2023 </p>
+          <h4 :class="{hide: !showAll}">2022</h4>
           <a class="link" target="_blank" href="https://docs.google.com/spreadsheets/d/1OGnbFMMwJOlKH1UvnUNvrrL-Al9jRyybIl4j4kL6AOc/htmlview#">9th Australian Boulder Nationals @ Sydney Indoor Climbing Gym St. Peters, Sydney - 18/11/2022 </a>
           <a class="link" target="_blank" href="https://docs.google.com/spreadsheets/d/1ETzKLzNZ2AJxjtfgd2Gp0g7P11cBBgwStdsDNUrXbqY/edit?usp=sharing&fbclid=IwAR2K0EDGeanTu8f3Iv9ob6dutGLqVesFRkrh48NTbUg6QSIntdlBPHWM00A">5th VIC Boulder State Titles @ Boulder Lab, Ferntree Gully - 15/10/2022 </a>
           <a class="link" target="_blank" href="https://sportclimbingsa.com/wp-content/uploads/2022/09/22-SA-Boulder-ONLINE.pdf">4th SA Boulder State Titles @ Beyond Bouldering, Adelaide - 17/09/2022 </a>
@@ -13,17 +15,20 @@
           <a class="link" target="_blank" href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202021/StateLeadResultsSCSA2022.pdf">1st SA Lead State Titles @ VRC, Adelaide - 14/05/2022 </a>
           <a class="link" :class="{hide: !showAll}" target="_blank" href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202021/2022%20Open%20Boulder%20selection%20results.pdf">9th Boulder National Selection Event @ Nomad, Sydney - 26/02/2022</a>
           <a class="link" :class="{hide: !showAll}" target="_blank" href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202021/21%20-%20NSW_ACT%20-%20Boulder%20-%20Results.pdf">5th NSW/ACT Boulder State Titles @ Skywood, Sydney - 22/01/2022</a>
+          <h4 :class="{hide: !showAll}">2021</h4>
           <a class="link" :class="{hide: !showAll}" target="_blank" href="https://sportclimbingsa.com/wp-content/uploads/2022/01/2021-SA-State-Boulder-Titles-Results.pdf">7th SA Boulder State Titles @ Beyond Bouldering, Adelaide - 23/10/2021</a>
-        </div>
-        <div>
-          <h3 style="margin-top: 2.5rem">Canada 🇨🇦</h3>
-          <a class="link" target="_blank" href="https://squamishclimbingmagazine.ca/final-results-2015-youth-bouldering-nationals/">2nd Youth Boulder Nationals @ Climbers Rock, Burlington - 13/02/2015</a>
         </div>
         <div>
           <h3 style="margin-top: 2.5rem">International 🌎</h3>
           <a class="link" target="_blank" href="https://www.ifsc-climbing.org/index.php/world-competition/calendar/?task=resultathletes&event=898&result=7">58th IFSC Worldcup @ Toronto, CA - 31/05/2015</a>
           <a class="link" target="_blank" href="https://www.ifsc-climbing.org/index.php/world-competition/calendar/?task=resultathletes&event=910&result=27">44th IFSC Youth World Championships @ Arco, Italy - 06/09/2015</a>
         </div>
+        <div>
+          <h3 style="margin-top: 2.5rem">Canada 🇨🇦</h3>
+          <a class="link" :class="{hide: showAll}" target="_blank" href="https://squamishclimbingmagazine.ca/final-results-2015-youth-bouldering-nationals/">2nd Youth Boulder Nationals @ Climbers Rock, Burlington - 13/02/2015</a>
+          <CanadaComps :class="{hide: !showAll}"/>
+        </div>
+        
       </div>
       <div class="img">
         <img src="/images/climbingBeyond.jpeg" class="pic" />
@@ -35,6 +40,7 @@
 <script setup>
 import { ref } from 'vue';
 import { mobile, desktop } from '../utils/Breakpoints';
+import CanadaComps from '../components/CanadaComps.vue';
 
 const showAll = ref(false);
 
@@ -55,6 +61,10 @@ const showAll = ref(false);
   white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;
+}
+
+h4 {
+    margin-top: 1rem;
 }
 
 a, p {
@@ -84,7 +94,7 @@ span {
 .nolink:hover {
     text-decoration: none;
     cursor: inherit;
-  }
+}
 
 .container {
   display: flex;
