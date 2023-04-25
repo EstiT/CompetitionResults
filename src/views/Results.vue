@@ -6,7 +6,7 @@
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
           <h4 :class="{hide: !showAll}">2023</h4>
-          <p class="link nolink">5th Island Crown @ Beta Park, Launceston - 22/04/2023 </p>
+          <a class="link" target="_balnk" href="https://docs.google.com/spreadsheets/d/1Zq0EURDQfX11X3dtPK0Yv5qpitzqX42XpV8jegds9Ts/edit?fbclid=IwAR1ZXh4SpeZL3qRuaZdqYcIthGv5-R3KRJBT2MgC75ZbIRpT4pPtVd2LXSM#gid=983302827">5th Island Crown @ Beta Park, Launceston - 22/04/2023 </a>
           <h4 :class="{hide: !showAll}">2022</h4>
           <a class="link" target="_blank" href="https://docs.google.com/spreadsheets/d/1OGnbFMMwJOlKH1UvnUNvrrL-Al9jRyybIl4j4kL6AOc/htmlview#">9th Australian Boulder Nationals @ Sydney Indoor Climbing Gym St. Peters, Sydney - 18/11/2022 </a>
           <a class="link" target="_blank" href="https://docs.google.com/spreadsheets/d/1ETzKLzNZ2AJxjtfgd2Gp0g7P11cBBgwStdsDNUrXbqY/edit?usp=sharing&fbclid=IwAR2K0EDGeanTu8f3Iv9ob6dutGLqVesFRkrh48NTbUg6QSIntdlBPHWM00A">5th VIC Boulder State Titles @ Boulder Lab, Ferntree Gully - 15/10/2022 </a>
