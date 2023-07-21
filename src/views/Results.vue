@@ -7,11 +7,13 @@
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
           <h4 :class="{ hide: !showAll }">2023</h4>
+          <p :class="{ hide: !showAll }" class="link nolink" href="">2nd Birthday Competition @ Steel
+            Peaks, Vaughn ON - 14/07/2023 </p>
           <!-- https://beyondbouldering.com.au/wp-content/uploads/2023/06/BOLDER.23-Results.xlsx -->
-          <a :class="{ hide: !showAll }" class="link" target="_balnk"
+          <a :class="{ hide: !showAll }" class="link" target="_blank"
             href="https://beyondbouldering.com.au/bolder-23-results/">8th Bolder @ Beyond
             Bouldering, Adelaide - 03/06/2023 </a>
-          <a class="link" target="_balnk"
+          <a class="link" target="_blank"
             href="https://docs.google.com/spreadsheets/d/1Zq0EURDQfX11X3dtPK0Yv5qpitzqX42XpV8jegds9Ts/edit?fbclid=IwAR1ZXh4SpeZL3qRuaZdqYcIthGv5-R3KRJBT2MgC75ZbIRpT4pPtVd2LXSM#gid=983302827">5th
             Island Crown @ Beta Park, Launceston - 22/04/2023 </a>
           <h4 :class="{ hide: !showAll }">2022</h4>
