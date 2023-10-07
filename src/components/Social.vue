@@ -39,6 +39,9 @@ onMounted(() => {
     @include mobile {
         justify-content: center;
     }
+    a {
+        cursor: pointer;
+    }
 }
 
 svg {

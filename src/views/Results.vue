@@ -7,6 +7,8 @@
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
           <h4 :class="{ hide: !showAll }">2023</h4>
+          <a class="link" target="_blank"
+            href="https://docs.google.com/spreadsheets/u/2/d/12RqJEGdUYp75H5inPm2_GuGcleUBY28bIAKEAr7Ad0k/htmlview#">9th National Lead Selection Event @ Cliffhanger Climbing Gym, Melbourne - 06/10/2023 </a>
           <p :class="{ hide: !showAll }" class="link nolink" href="">2nd Birthday Competition @ Steel
             Peaks, Vaughn ON - 14/07/2023 </p>
           <!-- https://beyondbouldering.com.au/wp-content/uploads/2023/06/BOLDER.23-Results.xlsx -->
