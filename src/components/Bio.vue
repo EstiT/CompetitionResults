@@ -4,7 +4,7 @@
             <h1>Esti Tweg 🧗🏻‍♀️</h1>
             <p>Competitive Rock Climber</p>
             <h4>Nationality <span>Australian & Canadian</span></h4>
-            <h4>Date of birth <span>04/04/1996</span></h4>
+            <h4>DOB <span>04/04/1996</span></h4>
             <h4>Height <span>5 ft 7in (170cm)</span></h4>
             <h4>Wingspan <span>5 ft 11in (180cm)</span></h4>
         </div>

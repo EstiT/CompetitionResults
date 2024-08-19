@@ -6,6 +6,16 @@
       <div>
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
+          <h4 :class="{ hide: !showAll }">2024</h4>
+          <!-- <a :class="{ hide: !showAll }" class="link" target="_blank"
+            href="https://www.instagram.com/p/C-1fV2hCpBj/">??? SA State Titles @ Skywood Climbing, Sydney
+            - 15/09/2024</a> -->
+          <!-- <a :class="{ hide: !showAll }" class="link" target="_blank"
+            href="https://www.instagram.com/p/C-1fV2hCpBj/">??? NSW State Titles @ Skywood Climbing, Sydney
+            - 7/09/2024</a> -->
+          <a :class="{ hide: !showAll }" class="link" target="_blank"
+            href="https://www.instagram.com/p/C-1fV2hCpBj/">4th Olympic Style Competition @ Beyond Bouldering, Adelaide
+            - 16/08/2024</a>
           <h4 :class="{ hide: !showAll }">2023</h4>
           <a class="link" target="_blank"
             href="https://docs.google.com/spreadsheets/u/2/d/12RqJEGdUYp75H5inPm2_GuGcleUBY28bIAKEAr7Ad0k/htmlview#">9th National Lead Selection Event @ Cliffhanger Climbing Gym, Melbourne - 06/10/2023 </a>
