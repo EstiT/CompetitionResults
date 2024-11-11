@@ -1,24 +1,31 @@
 <template>
   <div class="results">
-    <h2>Competition {{ showAll ? "Results" : "Highlights" }} 🏆<span class="link" @click="showAll = !showAll">{{ showAll ?
+    <h2>Competition {{ showAll ? "Results" : "Highlights" }} 🏆<span class="link" @click="showAll = !showAll">{{ showAll
+      ?
       '(Hide)' : '(See all)' }}</span></h2>
     <div class="container">
       <div>
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
           <h4 :class="{ hide: !showAll }">2024</h4>
-          <!-- <a :class="{ hide: !showAll }" class="link" target="_blank"
-            href="https://www.instagram.com/p/C-1fV2hCpBj/">??? SA State Titles @ Skywood Climbing, Sydney
-            - 15/09/2024</a> -->
-          <!-- <a :class="{ hide: !showAll }" class="link" target="_blank"
-            href="https://www.instagram.com/p/C-1fV2hCpBj/">??? NSW State Titles @ Skywood Climbing, Sydney
-            - 7/09/2024</a> -->
+          <a :class="{ hide: !showAll }" class="link nolink" target="_blank">4th
+            20th Birthday Social Comp @ Urban Climb, Adelaide
+            - 25/10/2024</a>
+          <a class="link" target="_blank"
+            href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202024/24-%20SA%20-%20Boulder.pdf">3rd
+            SA State Titles @ Beyond Bouldering, Keswick
+            - 15/09/2024</a>
+          <a :class="{ hide: !showAll }" class="link" target="_blank"
+            href="https://www.sportclimbingaustralia.org.au/resources/Documents/Results%202024/2024%20NSW%20-%20Boulder.pdf">12th
+            NSW State Titles @ Skywood Climbing, Sydney
+            - 7/09/2024</a>
           <a :class="{ hide: !showAll }" class="link" target="_blank"
             href="https://www.instagram.com/p/C-1fV2hCpBj/">4th Olympic Style Competition @ Beyond Bouldering, Adelaide
             - 16/08/2024</a>
           <h4 :class="{ hide: !showAll }">2023</h4>
           <a class="link" target="_blank"
-            href="https://docs.google.com/spreadsheets/u/2/d/12RqJEGdUYp75H5inPm2_GuGcleUBY28bIAKEAr7Ad0k/htmlview#">9th National Lead Selection Event @ Cliffhanger Climbing Gym, Melbourne - 06/10/2023 </a>
+            href="https://docs.google.com/spreadsheets/u/2/d/12RqJEGdUYp75H5inPm2_GuGcleUBY28bIAKEAr7Ad0k/htmlview#">9th
+            National Lead Selection Event @ Cliffhanger Climbing Gym, Melbourne - 06/10/2023 </a>
           <p :class="{ hide: !showAll }" class="link nolink" href="">2nd Birthday Competition @ Steel
             Peaks, Vaughn ON - 14/07/2023 </p>
           <!-- https://beyondbouldering.com.au/wp-content/uploads/2023/06/BOLDER.23-Results.xlsx -->
@@ -55,7 +62,8 @@
             NSW/ACT Boulder State Titles @ Skywood, Sydney - 22/01/2022</a>
           <h4 :class="{ hide: !showAll }">2021</h4>
           <a class="link" :class="{ hide: !showAll }" target="_blank"
-            href="https://sportclimbingsa.com/wp-content/uploads/2022/01/2021-SA-State-Boulder-Titles-Results.pdf">7th SA
+            href="https://sportclimbingsa.com/wp-content/uploads/2022/01/2021-SA-State-Boulder-Titles-Results.pdf">7th
+            SA
             Boulder State Titles @ Beyond Bouldering, Adelaide - 23/10/2021</a>
           <a class="link nolink" :class="{ hide: !showAll }" target="_blank" href="">2nd VRC Olympics @ VRC, Adelaide -
             19/09/2021</a>

@@ -8,17 +8,11 @@
             <h4>Height <span>5 ft 7in (170cm)</span></h4>
             <h4>Wingspan <span>5 ft 11in (180cm)</span></h4>
         </div>
-        <div class="img"><img src="/images/climbing.jpeg" /></div>
+        <div class="img"><img src="/images/climbingUrban.jpeg" /></div>
     </div>
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue';
-import { mobile, desktop } from '../utils/Breakpoints';
-
-
-onMounted(() => {
-});
 
 
 </script>
