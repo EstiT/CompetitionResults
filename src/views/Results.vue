@@ -8,6 +8,14 @@
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
           <h4 :class="{ hide: !showAll }">2024</h4>
+          <a class="link" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/19MNsKoP-io0o9mzyO2_Aw6YotQJLJM__TDbpeVLIllI/edit?gid=2130885351#gid=2130885351">8th
+            Oceania Lead Championships @ Elevate Climbing, Sydney
+            - 6/12/2024</a>
+          <a :class="{ hide: !showAll }" class="link" target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1dB5wrw2ZysFq_KWixUMfmu6U3NH4ohOF8XKjbWFCgQc/edit?gid=1341091134#gid=1341091134">17th
+            Oceania Boulder Championships @ Port Side Boulders, Perth
+            - 16/11/2024</a>
           <a :class="{ hide: !showAll }" class="link nolink" target="_blank">4th
             20th Birthday Social Comp @ Urban Climb, Adelaide
             - 25/10/2024</a>
