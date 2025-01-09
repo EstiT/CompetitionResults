@@ -92,7 +92,11 @@
             Nationals @ Climbers Rock, Burlington - 13/02/2015</a>
           <CanadaComps :class="{ hide: !showAll }" />
         </div>
-
+        <br />
+        <br />
+        <h5>
+          Competition Count: {{ 23 + 69 }}
+        </h5>
       </div>
       <div class="img">
         <img src="/images/climbingBeyond.jpeg" class="pic" />
@@ -103,7 +107,6 @@
 
 <script setup>
 import { ref } from 'vue';
-import { mobile, desktop } from '../utils/Breakpoints';
 import CanadaComps from '../components/CanadaComps.vue';
 
 const showAll = ref(false);

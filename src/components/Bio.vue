@@ -46,7 +46,7 @@ span {
 
 img {
     object-fit: contain;
-    width: 40vw;
+    width: 35vw;
 
     @include mobile {
         width: 100%;
