@@ -73,8 +73,13 @@
             href="https://sportclimbingsa.com/wp-content/uploads/2022/01/2021-SA-State-Boulder-Titles-Results.pdf">7th
             SA
             Boulder State Titles @ Beyond Bouldering, Adelaide - 23/10/2021</a>
-          <a class="link nolink" :class="{ hide: !showAll }" target="_blank" href="">2nd VRC Olympics @ VRC, Adelaide -
+          <a class="link nolink" :class="{ hide: !showAll }">2nd VRC Olympics @ VRC, Adelaide -
             19/09/2021</a>
+          <h4>2018</h4>
+          <a class="link nolink">3rd @ Beyond Bouldering, Adelaide - 27/05/2018 </a>
+          <a class="link nolink">1st @ ABC, Adelaide - ??/2018 </a>
+          <a class="link nolink">3rd @ Beyond Bouldering, Adelaide - 27/05/2018 </a>
+          <a class="link nolink">2nd Lead State Titles @ VRC, Adelaide - 03/03/2018 </a>
         </div>
         <div>
           <h3 style="margin-top: 2.5rem">International 🌎</h3>
@@ -95,7 +100,7 @@
         <br />
         <br />
         <h5>
-          Competition Count: {{ 23 + 69 }}
+          Competition Count: {{ 27 + 67 }}
         </h5>
       </div>
       <div class="img">
