@@ -7,6 +7,9 @@
       <div>
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
+          <h4 :class="{ hide: !showAll }">2025</h4>
+          <a class="link nolink" :class="{ hide: !showAll }" target="_blank"> 2nd Halloween Social Comp @ Urban Climb,
+            Adelaide - 31/10/2025</a>
           <h4 :class="{ hide: !showAll }">2024</h4>
           <a class="link" target="_blank"
             href="https://docs.google.com/spreadsheets/d/19MNsKoP-io0o9mzyO2_Aw6YotQJLJM__TDbpeVLIllI/edit?gid=2130885351#gid=2130885351">8th
@@ -75,11 +78,11 @@
             Boulder State Titles @ Beyond Bouldering, Adelaide - 23/10/2021</a>
           <a class="link nolink" :class="{ hide: !showAll }">2nd VRC Olympics @ VRC, Adelaide -
             19/09/2021</a>
-          <h4>2018</h4>
-          <a class="link nolink">3rd @ Beyond Bouldering, Adelaide - 27/05/2018 </a>
-          <a class="link nolink">1st @ ABC, Adelaide - ??/2018 </a>
-          <a class="link nolink">3rd @ Beyond Bouldering, Adelaide - 27/05/2018 </a>
-          <a class="link nolink">2nd Lead State Titles @ VRC, Adelaide - 03/03/2018 </a>
+          <h4 :class="{ hide: !showAll }">2018</h4>
+          <a class="link nolink" :class="{ hide: !showAll }">3rd @ Beyond Bouldering, Adelaide - 27/05/2018 </a>
+          <a class="link nolink" :class="{ hide: !showAll }">1st @ ABC, Adelaide - ??/2018 </a>
+          <a class="link nolink" :class="{ hide: !showAll }">3rd @ Beyond Bouldering, Adelaide - 27/05/2018 </a>
+          <a class="link nolink" :class="{ hide: !showAll }">2nd Lead State Titles @ VRC, Adelaide - 03/03/2018 </a>
         </div>
         <div>
           <h3 style="margin-top: 2.5rem">International 🌎</h3>
@@ -100,7 +103,7 @@
         <br />
         <br />
         <h5>
-          Competition Count: {{ 27 + 67 }}
+          Competition Count: {{ 28 + 69 }}
         </h5>
       </div>
       <div class="img">

@@ -1,5 +1,15 @@
 <template>
   <div id="">
+    <h4 :class="{ hide: !showAll }">2026</h4>
+    <a class="link" :class="{ hide: !showAll }" target="_blank"
+      href="https://docs.google.com/spreadsheets/d/1X-qNaLbuSo9fN8p1NHA_tRg-knjC-jE3u3WjCPGzVPs/edit?gid=2128624997#gid=2128624997">10th
+      Tour de Bloc @ Up the Bloc, Mississauga
+      - 18/04/2026</a>
+    <a class="link" :class="{ hide: !showAll }" target="_blank"
+      href="https://docs.google.com/spreadsheets/d/1QrFEowUACfq7VbzBZQsth20WJmyKae6vxBparN1GNfg/htmlview#gid=1548517575">2nd
+      16th Anniversary Autobelay Comp @ True North Climbing, Toronto
+      - 11/04/2026</a>
+
     <h4>2020</h4>
     <a class="link nolink" target="_blank" href="">?? Tour de Bloc @ Le Mouv' espace bloc, Montreal - 08/02/2020 </a>
 
