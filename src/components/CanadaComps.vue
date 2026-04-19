@@ -10,6 +10,10 @@
       16th Anniversary Autobelay Comp @ True North Climbing, Toronto
       - 11/04/2026</a>
 
+    <h4>2023</h4>
+    <p :class="{ hide: !showAll }" class="link nolink" href="">2nd Birthday Competition @ Steel
+      Peaks, Vaughn ON - 14/07/2023 </p>
+
     <h4>2020</h4>
     <a class="link nolink" target="_blank" href="">?? Tour de Bloc @ Le Mouv' espace bloc, Montreal - 08/02/2020 </a>
 
@@ -92,7 +96,7 @@
     <a class="link" target="_blank" href="https://my.climbontario.ca/dates.php?id=26">2nd OCF Bouldering Local @
       Junction
       Climbing Center, London - 02/11/2014</a>
-    <a class="link nolink" target="_blank" href="">?? Tour De Bloc @ Allez Up - 25/10/2014</a>
+    <a class="link nolink" target="_blank" href="">?? Tour De Bloc @ Allez Up, Montreal - 25/10/2014</a>
     <a class="link" target="_blank" href="https://my.climbontario.ca/dates.php?id=25">2nd OCF Bouldering Local @ Rock
       Oasis, Toronto - 11/10/2014</a>
     <a class="link nolink" target="_blank" href="">?? Summer Sweat Fest Finale @ The Hub, Markham - 20/09/2014</a>

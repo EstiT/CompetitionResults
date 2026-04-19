@@ -37,8 +37,6 @@
           <a class="link" target="_blank"
             href="https://docs.google.com/spreadsheets/u/2/d/12RqJEGdUYp75H5inPm2_GuGcleUBY28bIAKEAr7Ad0k/htmlview#">9th
             National Lead Selection Event @ Cliffhanger Climbing Gym, Melbourne - 06/10/2023 </a>
-          <p :class="{ hide: !showAll }" class="link nolink" href="">2nd Birthday Competition @ Steel
-            Peaks, Vaughn ON - 14/07/2023 </p>
           <!-- https://beyondbouldering.com.au/wp-content/uploads/2023/06/BOLDER.23-Results.xlsx -->
           <a :class="{ hide: !showAll }" class="link" target="_blank"
             href="https://beyondbouldering.com.au/bolder-23-results/">8th Bolder @ Beyond
@@ -94,7 +92,7 @@
             IFSC Youth World Championships @ Arco, Italy - 06/09/2015</a>
         </div>
         <div>
-          <h3 style="margin-top: 2.5rem">Canada 🇨🇦</h3>
+          <h3 style="margin-top: 2.5rem">{{ !showAll ? 'Canada 🇨🇦' : 'North America 🇨🇦🇺🇸' }}</h3>
           <a class="link" :class="{ hide: showAll }" target="_blank"
             href="https://squamishclimbingmagazine.ca/final-results-2015-youth-bouldering-nationals/">2nd Youth Boulder
             Nationals @ Climbers Rock, Burlington - 13/02/2015</a>
