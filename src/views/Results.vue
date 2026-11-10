@@ -7,6 +7,10 @@
       <div>
         <div class="aus-results">
           <h3>Australia 🇦🇺 </h3>
+          <h4 :class="{ hide: !showAll }">2026</h4>
+          <a class="link" :class="{ hide: !showAll }" target="_blank"
+            href="https://griptonite.io/events/430dc71f-ebb6-556b-b162-edbe73930c90/"> 1st Boulder Ladder @ Beyond
+            Bouldering, Thebarton - 9/11/2026</a>
           <h4 :class="{ hide: !showAll }">2025</h4>
           <a class="link nolink" :class="{ hide: !showAll }" target="_blank"> 2nd Halloween Social Comp @ Urban Climb,
             Adelaide - 31/10/2025</a>
@@ -101,7 +105,7 @@
         <br />
         <br />
         <h5>
-          Competition Count: {{ 28 + 69 }}
+          Competition Count: {{ 28 + 70 }}
         </h5>
       </div>
       <div class="img">
